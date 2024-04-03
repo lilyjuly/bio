@@ -98,3 +98,29 @@ li {
     background-color: khaki;
     color: darkgreen;
 }
+header h1:first-of-type:first-line {
+    color: crimson;
+    font-size: 50px;
+}
+header h2:first-line {
+    color: rgb(0, 98, 255);
+    font-style: italic;
+}
+footer section h2:first-of-type:hover {
+    color: rgb(0, 0, 0);
+}
+section.who h2:first-of-type:first-letter {
+    color: greenyellow;
+}
+.cc {
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 60%;
+    margin-top: 10%;
+    padding: 45px 10%;
+    position: absolute;
+}
+.cc:first-of-type:hover {
+    color: rgb(243, 73, 73);
+    background-color: rgb(232, 229, 35);
+}
