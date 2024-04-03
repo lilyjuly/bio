@@ -1,0 +1,100 @@
+:root {
+    --primary-font: "padauk", sans-serif;
+    --fw-l: 300;
+    --fw-m: 500;
+    --fw-b: 700;
+    --fs-base: 1rem;
+
+    --primary-color: blue;
+    --secondary-color: green;
+    --tertiary-color: gray;
+    --background-color: pink;
+    --accent-color-bright: yellow;
+    --accent-color-dark: black;
+    --neutral-lt-color: brown;
+    --border-radius: cyan;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: var( --neutral-lt-color);
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(43, 214, 226);
+    text-align: center;
+}
+header h2 {
+    padding: 30px;
+    background-color: burlywood;
+}
+img {
+    max-width: 200px;
+    height: auto;
+}
+.what p {
+    margin-left: 40%;
+}
+.what h2 {
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darkgray;
+}
+body {
+    background-image: url(../images/Designer\ \(1\).jpeg);
+}
+footer h2 {
+    background-color: rgb(248, 228, 48);
+    text-align: center;
+}
+.why {
+    background-color:mediumspringgreen;
+    width: 330px;
+    height: 00%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.note .two {
+    font-size: 30px;
+    color: var( --secondary-color);
+    display: none;
+}
+.note .one {
+    font-size: 50px;
+    color:  var( --accent-color-dark);
+} 
+.note:hover .one {
+    display: none;
+}
+.note:hover .two {
+    display: inline;
+}
+.who {
+    background-color:hotpink;
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 20px;
+}
+ol {
+    font-style: italic;
+}
+li {
+    font-style: italic;
+    color: rgb(170, 88, 88);
+    background-color: rgb(77, 255, 0);
+    padding: 10px;
+}
+.who h2 {
+    background-color: rgb(160, 90, 225);
+    color: rgb(246, 61, 0);
+    font-style: italic;
+}
+ .when {
+    background-color: khaki;
+    color: darkgreen;
+}
